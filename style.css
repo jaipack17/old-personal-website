@@ -15,14 +15,11 @@
   
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #232b2b;
+  background: #7289da;
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #232b2b;
-
-}
 
 .container {
     z-index: 2;
