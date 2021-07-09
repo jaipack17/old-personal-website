@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+h1 {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
  /* width */
 ::-webkit-scrollbar {
   width: 15px;
