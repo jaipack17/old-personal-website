@@ -390,6 +390,7 @@ body {
   -webkit-user-select: auto;
   -ms-user-select: auto;
   user-select: auto;
+  z-index: 0;
 }
 
 a {
@@ -412,4 +413,34 @@ a {
 @keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(5px); }
+}
+
+h1 {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.topnav {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  z-index: 10;
+  backface-visibility: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #C0C0C0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  transition: .5s; /* Animation */
+}
+
+.topnav a:hover {
+  color: #fff;
+  font-size: 16px;
 }
